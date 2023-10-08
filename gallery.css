@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+padding: 0px;
+}
+
+.main{
+width: 100%;
+height: 86vh;
+background-color: rgb(12, 12, 225);
+} 
+.photo  {
+     position: absolute;
+     top: 65px;
+     
+  background-color: #da0c0c;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  background-image: url(photo/bt.png);
+    height:80vh;
+    animation:mover 80s linear infinite;
+}
+ 
+@keyframes mover {
+    5%{
+        background-image: url(photo/f.png);
+    }
+    15%{
+         background-image: url(photo/v.png);
+    }
+    25%{
+         background-image: url(photo/gg.png);
+    }
+35%{
+    background-image: url(photo/n.png);
+}
+45%{
+    background-image: url(photo/o.png);
+}
+55%{
+    background-image: url(photo/bt.png);
+}
+65%{
+    background-image: url(photo/bg.png);
+}
+75%{
+    background-image: url(photo/bb.png);
+}}
+
+          .navbar{
+            width: 100%;
+              height: 8vh;
+              display: flex;
+              justify-content:space-between ;
+              align-items: center;
+              line-height: 8vh;
+
+              background-image: 
+      linear-gradient(120deg, rgb(56, 34, 1) 15%,rgb(136, 107, 62) 50%);
+              font-family: sans-serif;
+              }
+              
+              .navbar li
+              {
+                  list-style-type: none;
+              }
+            
+              i
+              
+              {
+              color  : rgb(247, 200, 200);
+              padding: 12px;
+              }
+              
+              i:hover{
+                  background: rgb(4, 12, 4);   
+              }
+              .first
+              {
+                  background:rgb(63, 41, 1);
+                  font-family:Georgia, 'Times New Roman', Times, serif;
+                  animation: text 6s infinite;
+                  
+              }
+              @keyframes  text {
+                0%{
+                    color: aqua;
+                    font-size:2rem;
+                }
+                50%{
+                    color: blue;
+                    font-size:2rem;
+                }
+                100%{
+                    color: brown;
+                    font-size:2rem;
+                }
+              }
+            li .nav:hover{
+                  background: rgb(16, 17, 16);
+              }
+              
+              .navbar li .nav{
+                  text-decoration: none;
+                  color: rgb(251, 166, 166);
+                  font-size: 1.3rem;
+                  padding: 0px 6px;
+               
+              
+              } 
+              .nav
+              {
+                  margin:0px;
+              }
+              .birth{
+                width: 100%;
+                height: 45vh;
+                background:linear-gradient(to right,rgb(247, 66, 66),rgb(244, 153, 104),rgb(240, 73, 132));
+position: relative;
+ top: 4px;
+              }
+              .birth h2{
+                color: aqua;
+                font-size: 2rem;
+                text-align: center;
+              }
+              .one{
+                width: 30%;
+                height: 30vh;
+                border: 2px solid blue;
+              }
+              .one img{
+                width: 100%;
+                height: 35vh;
+              }
+              .two{
+                width: 30%;
+                height: 30vh;
+                border: 2px solid blue;
+                position: relative;
+                left: 498px;
+                top: -223px;
+              }
+              .two img{
+                width: 100%;
+                height: 35vh;
+              }
+              .three{
+                width: 30%;
+                height: 30vh;
+                border: 2px solid blue;
+                position: relative;
+                left:988px;
+                top: -453px;
+              }
+              .three img{
+                width: 100%;
+                height: 35vh;
+              }
+             

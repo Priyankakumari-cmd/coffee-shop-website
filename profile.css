@@ -1,0 +1,142 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: 
+    linear-gradient(120deg, rgb(245, 121, 181) 15%,rgb(184, 100, 91)30%, rgb(234, 54, 26)75%, rgb(241, 219, 122)100%);
+
+}
+.navbar{
+    width: 100%;
+      height: 8vh;
+      display: flex;
+      justify-content:space-between ;
+      align-items: center;
+      line-height: 8vh;
+      background-color:rgb(89, 52, 24);
+        
+      font-family: sans-serif;
+      }
+      
+      .navbar li
+      {
+          list-style-type: none;
+      }
+      i
+      
+      {
+      color  : rgb(247, 200, 200);
+      padding: 12px;
+      }
+      
+      i:hover{
+          background: rgb(4, 12, 4);   
+      }
+      .first
+      {
+          background:rgb(63, 41, 1);
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          animation: text 6s infinite;
+          
+      }
+      @keyframes  text {
+        0%{
+            color: aqua;
+            font-size:2rem;
+        }
+        50%{
+            color: blue;
+            font-size:2rem;
+        }
+        100%{
+            color: brown;
+            font-size:2rem;
+        }
+      }
+    li .nav:hover{
+          background: rgb(16, 17, 16);
+      }
+      
+      .navbar li .nav{
+          text-decoration: none;
+          color: rgb(251, 166, 166);
+          font-size: 1.3rem;
+          padding: 0px 6px;
+       
+      
+      } 
+      .nav
+      {
+          margin:0px;
+      }
+      .imm{
+        width: 28%;
+        height: 25vh;
+        border: 0px solid rgb(245, 10, 10);
+        position: absolute;
+        top: 80px;
+        left:699px;
+         
+        
+         
+      }
+      .imm img{
+        width: 45%;
+        height: 22vh;
+        border-radius: 50%;
+    
+      }
+      .pro{
+        width: 48%;
+        height: 66vh;
+        border: 0px solid rgb(249, 244, 244);
+        position: absolute;
+        top: 229px;
+        left: 450px;
+        box-shadow: 5px 10px 8px 10px rgb(248, 98, 75);
+      }
+      .proo{
+        width: 100%;
+        height: 65vh;
+        border: 0px solid red;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+      
+      
+      .proo h4{
+font-size: 2rem;
+position:absolute;
+top:-29px;
+color: rgb(6, 6, 1);
+line-height:1.0;
+      }
+       
+    .proo p{
+        font-size:30px;
+position:absolute;
+top:140px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+color: rgb(12, 2, 0);
+line-height:1.0;
+    }
+    .proo h2{
+      font-size: 2rem;
+      position:absolute;
+      top: -50px;
+      color: rgb(244, 231, 235);
+          }
+    .faic{
+        width: 100%;
+        height: 35vh;
+        border: 0px solid rgb(179, 173, 173);
+        position: absolute;
+        top: 210px;
+        left: 0px;
+        font-size: 1rem;
+      }

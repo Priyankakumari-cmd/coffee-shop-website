@@ -1,0 +1,312 @@
+ body{
+    padding: 0%;
+    margin: 0%;
+ }
+ .main{
+  
+    
+    width:100%;
+    height:740px;
+
+ }
+  
+ .mainn{
+    width: 100%;
+      height: 8vh;
+      display: flex;
+      justify-content:space-between ;
+      align-items: center;
+      line-height: 8vh;
+      background-image: 
+      linear-gradient(120deg, rgb(56, 34, 1) 15%,rgb(136, 107, 62) 50%);
+       position: fixed;
+       
+        
+      font-family: sans-serif;
+      }
+      
+      .mainn li
+      {
+          list-style-type: none;
+      }
+      i
+      
+      {
+      color  : rgb(247, 200, 200);
+      padding: 12px;
+      }
+      
+      i:hover{
+          background: rgb(247, 247, 247);   
+      }
+      .first
+      {
+          background:rgb(72, 48, 5);
+          color: rgb(153, 246, 246);
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          animation: text 5s infinite;
+          font-size: 2rem;
+          
+      }
+      @keyframes  text {
+        0%{
+            color: aqua;
+        }
+        50%{
+            color: blue;
+        }
+        100%{
+            color: brown;
+        }
+      }
+      
+    li .aboutt:hover{
+          background: rgb(16, 17, 16);
+      }
+      
+      .mainn li .aboutt{
+          text-decoration: none;
+          color: rgb(248, 115, 188);
+          font-size: 1.3rem;
+          padding: 0px 6px;
+       
+      
+      } 
+      .aboutt
+      {
+          margin:0px;
+      }
+       
+  .parag{
+    color: rgb(69, 36, 10);
+    font-family: sans-serif;
+    width: 32%;
+    height: 64vh;
+    border: 2px solid rgb(249, 192, 192);
+  position:absolute;
+top: 68px;
+left: 3px;
+  
+  }
+ .parag img{
+    padding: 12px 0px;
+    margin: 2px 19px;
+    width: 93%;
+height:30vh;
+ 
+ }
+ .parag h2{
+    color:rgb(105, 3, 49);
+    font-size:2rem;
+    position:absolute;
+    top: 223px;
+    left: 55px;
+ }
+ .parag p{
+    font-size:19px;
+    color: rgb(245, 126, 112);
+    position:absolute;
+    top: 260px;
+    left: 16px;
+ }
+  .parag button{
+    border: 1px solid rgba(245, 152, 211, 0.792);
+        cursor: pointer;
+        width: 24%;
+        position:absolute;
+      top: 150px;
+      left: 358px;
+      border-radius: 15%;
+      color: #f07aa3;
+      background-color: #660324;
+      height:35px;
+  }
+
+  button:hover {
+    opacity: 2,8;
+    background-color:#5f0b28;
+         
+         color: #f5cac0;
+        }
+
+ .paragr{
+    color: rgb(69, 36, 10);
+    font-family: sans-serif;
+    width: 32%;
+    height: 64vh;
+    border: 1px solid rgb(245, 132, 132);
+  position:absolute;
+top: 68px;
+left: 499px;
+ }
+ .paragr img{
+    padding: 12px 0px;
+    margin: 2px 19px;
+    width: 93%;
+height:30vh;}
+ 
+.paragr h2{
+    color:rgb(105, 3, 49);
+    font-size:2rem;
+    position:absolute;
+    top: 223px;
+    left: 55px;
+ }
+ .paragr p{
+    font-size:19px;
+    color: rgb(245, 126, 112);
+    position:absolute;
+    top: 260px;
+    left: 16px;
+ }
+  .paragr button{
+    border: 1px solid rgba(245, 152, 211, 0.792);
+        cursor: pointer;
+        width: 24%;
+        position:absolute;
+      top: 420px;
+      left: 372px;
+      border-radius: 15%;
+      color: #f07aa3;
+      background-color: #660324;
+      height:35px;
+  }
+
+  button:hover {
+    opacity: 2,8;
+    background-color:#5f0b28;
+         
+         color: #f4a796;
+        }
+ .paragra{
+    color: rgb(69, 36, 10);
+    font-family: sans-serif;
+    width: 32%;
+    height: 64vh;
+    border: 1px solid rgb(245, 132, 132);
+  position:absolute;
+top: 68px;
+left: 999px;
+ 
+ }
+ .paragra img{
+    padding: 12px 0px;
+    margin: 2px 19px;
+    width: 93%;
+height:30vh;}
+ 
+.paragra h2{
+    color:rgb(105, 3, 49);
+    font-size:2rem;
+    position:absolute;
+    top: 223px;
+    left: 55px;
+ }
+ .paragra p{
+    font-size:19px;
+    color: rgb(245, 126, 112);
+    position:absolute;
+    top: 260px;
+    left: 16px;
+ }
+  .paragra button{
+    border: 1px solid rgba(245, 152, 211, 0.792);
+        cursor: pointer;
+        width: 24%;
+        position:absolute;
+      top: 420px;
+      left: 372px;
+      border-radius: 15%;
+      color: #f07aa3;
+      background-color: #660324;
+      height:35px;
+  }
+
+  button:hover {
+    opacity: 2,8;
+    background-color:#5f0b28;
+         
+         color: #f4a796;
+        }
+        .paragrap{
+            color: rgb(69, 36, 10);
+    font-family: sans-serif;
+    width: 96%;
+    height: 46vh;
+    border: 1px solid rgb(245, 132, 132);
+  position:absolute;
+top: 549px;
+left:8px;}
+ .paragrap h2{
+position: absolute;
+left: 495px;
+ animation: text 5s infinite;
+ font-size: 2rem;
+ 
+}
+@keyframes  text {
+0%{
+   color: aqua;
+}
+50%{
+   color: blue;
+}
+100%{
+   color: brown;
+}}
+.hi{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 3rem;
+    width: 22%;
+    height: 30vh;
+    border: 1px solid rgb(245, 132, 132);
+  position:absolute;
+top: 8px;
+left: 3px;
+}
+        .hi img{
+            width: 100%;
+            height: 30vh;
+        }
+.hii{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 3rem;
+    width: 24%;
+    height: 30vh;
+    border: 1px solid rgb(245, 132, 132);
+  position:absolute;
+top:99px;
+left:340px;
+}
+.hii img{
+    width: 98%;
+    height: 23vh;
+}
+.hiii{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 3rem;
+    width: 24%;
+    height: 30vh;
+    border: 1px solid rgb(245, 132, 132);
+  position:absolute;
+top:99px;
+left:745px;
+}
+.hiii img{
+    width: 98%;
+    height: 23vh;
+}
+.hiiii{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+   width: 24%;
+   height: 30vh;
+   border: 1px solid rgb(245, 132, 132);
+ position:absolute;
+top: 8px;
+left: 1140px;
+}
+       .hiiii img{
+           width: 100%;
+           height: 30vh;
+       }

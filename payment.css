@@ -1,0 +1,270 @@
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main-container
+{
+    width:100%;
+    height: 100vh;
+    background-image: 
+    linear-gradient(120deg, rgb(84, 47, 2) 15%,rgb(78, 59, 33) 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container
+{
+    width:70%;
+    height: 80vh;
+    background-image: 
+    linear-gradient(315deg ,rgb(65, 65, 65) 60%, rgb(255, 25, 25) 40%);
+    box-shadow: 8px 10px 12px 2px rgba(58, 57, 57, 0.3),8px 10px 12px 2px rgba(0,0,0,0.3);
+    display: flex;
+}
+.first-box
+{
+    width: 40%;
+    height: 100%;
+}
+
+.user-img
+{
+    width: 50%;
+    height:40%;
+    margin-left: 85px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow:4px 6px 12px 4px rgba(58, 57, 57, 0.3),4px 6px 12px 4px rgba(0,0,0,0.3);
+}
+
+
+h2
+{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+i
+{
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 50%;
+    margin-right:15px;
+    margin-left: 25px;
+    margin-top:25px;
+    background-color: gray;
+}
+i:hover{
+    background-color: red;
+    transition: 2s;
+    box-sizing: border-box;
+}
+
+.second-box
+{
+width:58%;
+height: 100%;
+}
+
+.pers
+{
+    text-align: center;
+    color: white;
+    border-bottom:2px solid red;
+    padding: 20px 0px 8px 0px;
+    font-size: 2rem;
+    font-weight:bold;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.info
+{
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 25px 0px 0px 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#info-1
+{
+margin-bottom: 20px;
+}
+
+.galery
+{
+    width: 100%;
+    height: 35%;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-offset: 10px;
+    margin-bottom: 15px;
+
+}
+
+
+#galler-box
+{
+    width: 80px;
+    height:80px;
+    background-color: red;
+    float: left;
+    margin-left: 45px;
+}
+
+.gal-img
+{
+    width: 100%;
+    height: 100%;
+}
+.gal-img:hover
+{
+    box-shadow: 8px 10px 12px 2px rgba(58, 57, 57, 0.3),8px 10px 12px 2px rgba(0,0,0,0.3);
+    transition: 1s;
+}
+/******************************************************************************************************************/
+
+
+.register-container
+{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to right,rgb(247, 66, 66),rgb(244, 153, 104),rgb(240, 73, 132));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-child-box
+{
+    width: 350px;
+    height: 530px;
+    background-color: rgba(240, 128, 22, 0.1);
+    box-shadow: 3px 3px 3px 4px rgba(0,0,0,0.3);
+
+
+}
+.user-reg-img
+{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    background: #000;
+    margin-top: -40px;
+    background-image: url(IMG/PY.PNG);
+     background-repeat: no-repeat;
+    background-size: 100%,100%;
+    box-shadow: 2px 2px 3px 2px rgba(58, 57, 57, 0.3);
+}
+
+.regis-head
+{
+    text-align: center;
+    color: rgb(8, 0, 2);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px 2px rgba(111, 107, 107, 0.3);
+
+}
+
+.input-box-size
+{
+text-align: center;
+}
+ 
+
+.input-box-id
+{
+    padding: 10px 40px;
+    margin-top: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    outline: none;
+    margin-bottom: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600px;
+    color: white;
+}
+
+.all-same
+{
+  box-sizing: border-box;
+  display: inline-block;
+  color: rgb(235, 235, 235);
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.input-box-id::placeholder
+{
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.text-msg
+{
+    padding: 10px 40px;
+    margin-top: 30px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    outline: none;
+    display: block;  
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    resize: none;
+  
+
+}
+
+.text-msg::placeholder
+{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.btn-box-id
+{
+    padding: 10px 25px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    background-image: linear-gradient(90deg,rgb(238, 211, 199) ,
+    rgb(82, 243, 200) );
+    box-shadow: 2px 2px 3px 2px rgba(58, 57, 57, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}

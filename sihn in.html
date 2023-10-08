@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+  <link rel="stylesheet" href="sign in.css">
+<body>
+    <form onsubmit="return validating()">
+    <div class="register-container">
+        <div class="register-child-box">
+
+            <center><div class="user-reg-img"></div></center>
+            <h1 class="regis-head">REGISTER</h1>
+            <div class="input-box-size">
+
+            <input type="text"  class="input-box-id" name=""
+            id="Username" placeholder="username..." value="">
+            <span id="msging" class="all-same"></span>
+
+            <br><input type="email"  class="input-box-id" name=""
+            id="useremail" placeholder="email..." value="">
+            <span id="emailing" class="all-same"></span>
+
+           <br> <input type="text"  class="input-box-id" name=""
+           id="phone_no" placeholder="phone no..." value="">
+
+           <br> <input type="password"  class="input-box-id" name=""
+           id="user_password" placeholder="password..." value="">
+
+
+           <br><textarea  class="text-msg" id="mesg" 
+           placeholder="Address.."></textarea>
+
+           <input type="submit"  class="btn-box-id" value="Submit">
+            <input type="reset" class="btn-box-id" value="Reset">
+        </div>  
+        </div>
+    </div>
+</form>
+    <script>
+            function validating()
+            {
+                var name = document.getElementById("Username").value;
+                var email = document.getElementById("useremail").value;
+                var atposition = email.indexOf["@"];
+                var dotposition=email.lastIndexOf["."];
+                // var num = document.getElementByIdD("phone_no").value;
+                // var password = document.getElementById("user_password".value);
+                // var messaging = document.getElementById("mesg").value;
+
+               //var name = document.getElementById("username").value;
+
+               if(name == "")
+               {          
+                  document.getElementById("msging").innerHTML="**Fill User Name";
+                  return false; 
+               }
+               if (name.length<3 )
+               {          
+                  document.getElementById("msging").innerHTML="**User Name must be more than 3 word";
+                  return false; 
+               }
+               if (name.length>15 )
+               {          
+                  document.getElementById("msging").innerHTML="**User Name must be less than 20 word";
+                  return false; 
+               }
+
+                 // var email = document.getElementById("useremail").value;
+
+                 if(email == "" || email == null)
+                 {
+                     document.getElementById("emailing").innerHTML="**please enter ur EMAIL ID";
+                     return false;
+                 }
+                //if(email.indexOf<=0)
+               // {
+                   // document.getElementById("emailing").innerHTML="**Invalid @ position";
+                   // return false;
+
+              //  }
+              if(atposition<1||dotpositon<atposotion+2||dotposition+2>=x.length)
+              {
+               documnt.getElementById("emailing").innerHTML="**please enter a valid e-mail address";
+               return false;
+              }
+
+               
+            }
+    </script>
+    
+</body>
+</html>
